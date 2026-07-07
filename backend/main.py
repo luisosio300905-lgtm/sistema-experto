@@ -10,7 +10,7 @@ app = FastAPI(
 )
 
 origins = [
-    "https://sistema-experto-psicologia.vercel.app"
+    "https://sistema-experto-psicologia.vercel.app",
     "http://localhost:3000",
     "http://localhost:8000",
     "http://localhost:5173",
