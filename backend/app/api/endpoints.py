@@ -1,6 +1,6 @@
 from fastapi import APIRouter, HTTPException, status
-from app.api.schemas import EvaluacionRequest, EvaluacionResponse, AnalisisDimensiones
-from app.services.motor_experto import MotorExperto
+from backend.app.api.schemas import EvaluacionRequest, EvaluacionResponse, AnalisisDimensiones
+from backend.app.services.motor_experto import MotorExperto
 
 router = APIRouter(
     prefix="/evaluacion",
